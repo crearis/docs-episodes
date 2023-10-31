@@ -1,1 +1,0 @@
-Cloned from: https://Github.com/vuestorefront/storefront-nuxt3-boilerplate/apps/web
