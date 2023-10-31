@@ -6,7 +6,7 @@ on:
   # Runs on pushes targeting the default branch
   push:
     branches:
-      - 'main'
+      - 'episodes/main'
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -70,7 +70,7 @@ jobs:
         run: npx nuxi generate
         env:
           NUXT_PUBLIC_STUDIO_API_URL: https://api.nuxt.studio
-          NUXT_PUBLIC_STUDIO_TOKENS: 674e60e8897d9737a25497217b70cc643c322b686776c5ed69ad27226139cc2b
+          NUXT_PUBLIC_STUDIO_TOKENS: affe50d52bc0955564cd4dfdbf014e9db14f101723f0b278555e5bfb04612a13
 
       - name: Add .nojekyll file
         run: touch .output/public/.nojekyll
